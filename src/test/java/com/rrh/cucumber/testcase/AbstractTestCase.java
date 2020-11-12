@@ -17,10 +17,7 @@ import java.net.MalformedURLException;
  */
 public class AbstractTestCase {
     public static volatile AndroidDriver driver = null;
-    public static String firstActivity = ".modules.firstactivity.FirstActivity";
-    public static String welComeActivity = ".modules.newuserguide.UserGuideActivity";
-    public static String phoneNum = "13512937693";
-    public static String passWord = "qqqqqq1";
+
 
     @BeforeSuite
     public void beforeSuit() throws MalformedURLException, HelperClassException {
